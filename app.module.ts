@@ -16,3 +16,6 @@ import { AppComponent } from './app.component';
   ]
 })
 export class AppModule {}
+
+// Export AppModule which allows it to be imported it elsewhere and tell Angular to bootstrap that particular module.
+// Typically you bootstrap an Angular app by importing that module into a new file, say main.ts
